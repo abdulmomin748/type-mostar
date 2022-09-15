@@ -47,6 +47,7 @@ ol li::marker {
 
 #question {
   padding: 40px 15px;
+  
   text-align: center;
   display: flex;
   align-items: center;
@@ -65,6 +66,7 @@ ol li::marker {
 }
 
 #display {
+  min-height: 100px;
   padding: 30px 15px;
   display: flex;
   flex-wrap: wrap;
