@@ -133,6 +133,7 @@ ol li::marker {
   text-align: center;
   color: white;
   margin: 20px 0;
+  margin-top: 40px;
 }
 
 .divider-container {
@@ -225,6 +226,9 @@ button {
   #histories{
     grid-template-columns: repeat(2,1fr);
   }
+  .card{
+    padding: 35px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .box-container {
@@ -233,5 +237,11 @@ button {
   #histories{
     grid-template-columns: repeat(1,1fr);
     row-gap: 25px;
+  }
+  #display{
+    min-height: 70px;
+  }
+  .card{
+    padding: 20px;
   }
 }
