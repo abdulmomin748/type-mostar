@@ -9,8 +9,24 @@ body {
   background-size: cover;
   background-position: left top;
   font-family: "Zilla Slab", serif;
+  color: #7a7070;
+  font-size: 18px;
 }
-
+ol li {
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #a4a4a4;
+  font-weight: 500;
+  line-height: 1.7;
+}
+ol li::marker {
+  color: #a4a4a4;
+  font-size: 25px;
+  font-weight: 800;
+}
+.page-title{
+  color: #817777;
+}
 .box-container {
   width: 70%;
   margin: 0 auto;
